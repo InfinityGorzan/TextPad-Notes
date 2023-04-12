@@ -10,16 +10,13 @@
       http-equiv="X-Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
     />
-    <title>Hello World</title>
+    <title></title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p>
-        This app is using Chrome <span id="chromever"></span>,
-        Node.js <span id="nodever"></span>,
-        and Electron <span id="electronver"></span>.
-    </p>
+    <h1>TextPad Notes</h1>
+    <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
   </body>
+  <script src="scripts.js"></script>
   <script src="./renderer.js"></script>
 </html>
